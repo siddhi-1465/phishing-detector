@@ -1,0 +1,327 @@
+{
+  "model_name": "Random Forest",
+  "feature_names": [
+    "url_length",
+    "has_ip_address",
+    "has_at_symbol",
+    "has_double_slash_redirect",
+    "has_dash_in_domain",
+    "subdomain_count",
+    "dot_count",
+    "hyphen_count",
+    "underscore_count",
+    "slash_count",
+    "query_param_count",
+    "path_length",
+    "domain_length",
+    "uses_https",
+    "has_url_encoding",
+    "has_port",
+    "phishing_keyword_count",
+    "is_url_shortener",
+    "has_suspicious_tld",
+    "has_hex_characters",
+    "digit_count_in_domain",
+    "special_char_count",
+    "has_multiple_tld",
+    "url_entropy",
+    "domain_digit_ratio",
+    "has_brand_name",
+    "domain_in_path",
+    "is_suspicious_pattern"
+  ],
+  "feature_importance": [
+    {
+      "feature": "uses_https",
+      "importance": 0.2853
+    },
+    {
+      "feature": "is_suspicious_pattern",
+      "importance": 0.1712
+    },
+    {
+      "feature": "has_suspicious_tld",
+      "importance": 0.1128
+    },
+    {
+      "feature": "domain_length",
+      "importance": 0.1056
+    },
+    {
+      "feature": "phishing_keyword_count",
+      "importance": 0.086
+    },
+    {
+      "feature": "hyphen_count",
+      "importance": 0.0792
+    },
+    {
+      "feature": "has_dash_in_domain",
+      "importance": 0.0593
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.0273
+    },
+    {
+      "feature": "is_url_shortener",
+      "importance": 0.0144
+    },
+    {
+      "feature": "url_entropy",
+      "importance": 0.0108
+    },
+    {
+      "feature": "subdomain_count",
+      "importance": 0.0092
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.0071
+    },
+    {
+      "feature": "dot_count",
+      "importance": 0.0065
+    },
+    {
+      "feature": "has_ip_address",
+      "importance": 0.0058
+    },
+    {
+      "feature": "digit_count_in_domain",
+      "importance": 0.0057
+    },
+    {
+      "feature": "has_brand_name",
+      "importance": 0.0051
+    },
+    {
+      "feature": "domain_digit_ratio",
+      "importance": 0.0025
+    },
+    {
+      "feature": "slash_count",
+      "importance": 0.002
+    },
+    {
+      "feature": "special_char_count",
+      "importance": 0.002
+    },
+    {
+      "feature": "query_param_count",
+      "importance": 0.0013
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 0.0008
+    },
+    {
+      "feature": "has_double_slash_redirect",
+      "importance": 0.0
+    },
+    {
+      "feature": "underscore_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_url_encoding",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_port",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_hex_characters",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_multiple_tld",
+      "importance": 0.0
+    },
+    {
+      "feature": "domain_in_path",
+      "importance": 0.0
+    }
+  ],
+  "metrics": {
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "roc_auc": 100.0,
+    "confusion_matrix": [
+      [
+        160,
+        0
+      ],
+      [
+        0,
+        160
+      ]
+    ],
+    "report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 160.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 160.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      }
+    }
+  },
+  "all_models_metrics": {
+    "Random Forest": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          160,
+          0
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          160,
+          0
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        }
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          160,
+          0
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 160.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 320.0
+        }
+      }
+    }
+  },
+  "training_samples": 1280,
+  "test_samples": 320
+}

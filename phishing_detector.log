@@ -1,0 +1,129 @@
+2026-03-29 21:44:33,323 [INFO] Starting Phishing Detector...
+2026-03-29 21:44:34,721 [INFO] Model loaded: Random Forest
+2026-03-29 21:44:34,758 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.101.127:5000
+2026-03-29 21:44:34,759 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-29 21:44:34,761 [INFO]  * Restarting with stat
+2026-03-29 21:44:35,037 [INFO] Starting Phishing Detector...
+2026-03-29 21:44:36,357 [INFO] Model loaded: Random Forest
+2026-03-29 21:44:36,376 [WARNING]  * Debugger is active!
+2026-03-29 21:44:36,379 [INFO]  * Debugger PIN: 645-769-495
+2026-03-29 21:44:45,924 [INFO] 127.0.0.1 - - [29/Mar/2026 21:44:45] "GET / HTTP/1.1" 200 -
+2026-03-29 21:44:46,545 [INFO] 127.0.0.1 - - [29/Mar/2026 21:44:46] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:44:47,112 [INFO] 127.0.0.1 - - [29/Mar/2026 21:44:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-29 21:44:56,872 [INFO] 127.0.0.1 - - [29/Mar/2026 21:44:56] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:03,681 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:03] "POST /api/scan HTTP/1.1" 200 -
+2026-03-29 21:45:04,036 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:04] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:06,546 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:06] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:14,412 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:14] "POST /api/scan HTTP/1.1" 200 -
+2026-03-29 21:45:14,609 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:14] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:16,552 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:16] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:23,661 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:23] "POST /api/scan HTTP/1.1" 200 -
+2026-03-29 21:45:23,866 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:23] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:26,547 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:26] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:36,857 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:36] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:44,659 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:44] "POST /api/scan HTTP/1.1" 200 -
+2026-03-29 21:45:44,989 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:44] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:46,563 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:46] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:45:54,711 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:54] "GET / HTTP/1.1" 200 -
+2026-03-29 21:45:54,762 [INFO] 127.0.0.1 - - [29/Mar/2026 21:45:54] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:04,774 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:04] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:15,083 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:15] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:24,778 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:24] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:35,075 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:35] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:44,779 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:44] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:50,219 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:50] "POST /api/scan HTTP/1.1" 200 -
+2026-03-29 21:46:50,422 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:50] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:46:54,768 [INFO] 127.0.0.1 - - [29/Mar/2026 21:46:54] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:05,075 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:05] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:14,769 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:14] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:25,079 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:25] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:34,769 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:34] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:45,609 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:45] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:47:55,292 [INFO] 127.0.0.1 - - [29/Mar/2026 21:47:55] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:48:05,611 [INFO] 127.0.0.1 - - [29/Mar/2026 21:48:05] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:48:15,306 [INFO] 127.0.0.1 - - [29/Mar/2026 21:48:15] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:48:25,609 [INFO] 127.0.0.1 - - [29/Mar/2026 21:48:25] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:48:35,294 [INFO] 127.0.0.1 - - [29/Mar/2026 21:48:35] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:49:13,644 [INFO] 127.0.0.1 - - [29/Mar/2026 21:49:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:50:13,341 [INFO] 127.0.0.1 - - [29/Mar/2026 21:50:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:51:13,639 [INFO] 127.0.0.1 - - [29/Mar/2026 21:51:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:52:13,327 [INFO] 127.0.0.1 - - [29/Mar/2026 21:52:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:53:13,629 [INFO] 127.0.0.1 - - [29/Mar/2026 21:53:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:54:13,347 [INFO] 127.0.0.1 - - [29/Mar/2026 21:54:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:55:13,622 [INFO] 127.0.0.1 - - [29/Mar/2026 21:55:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:56:13,314 [INFO] 127.0.0.1 - - [29/Mar/2026 21:56:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:57:13,630 [INFO] 127.0.0.1 - - [29/Mar/2026 21:57:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:58:13,340 [INFO] 127.0.0.1 - - [29/Mar/2026 21:58:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 21:59:13,611 [INFO] 127.0.0.1 - - [29/Mar/2026 21:59:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:00:13,323 [INFO] 127.0.0.1 - - [29/Mar/2026 22:00:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:01:13,626 [INFO] 127.0.0.1 - - [29/Mar/2026 22:01:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:02:13,316 [INFO] 127.0.0.1 - - [29/Mar/2026 22:02:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:03:13,634 [INFO] 127.0.0.1 - - [29/Mar/2026 22:03:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:04:13,312 [INFO] 127.0.0.1 - - [29/Mar/2026 22:04:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:05:13,625 [INFO] 127.0.0.1 - - [29/Mar/2026 22:05:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:06:13,322 [INFO] 127.0.0.1 - - [29/Mar/2026 22:06:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:07:13,671 [INFO] 127.0.0.1 - - [29/Mar/2026 22:07:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:08:13,317 [INFO] 127.0.0.1 - - [29/Mar/2026 22:08:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:09:13,637 [INFO] 127.0.0.1 - - [29/Mar/2026 22:09:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:10:13,328 [INFO] 127.0.0.1 - - [29/Mar/2026 22:10:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-29 22:11:13,642 [INFO] 127.0.0.1 - - [29/Mar/2026 22:11:13] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:45:28,225 [INFO] Starting Phishing Detector...
+2026-03-30 22:45:45,065 [INFO] Model loaded: Random Forest
+2026-03-30 22:45:45,178 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-03-30 22:45:45,179 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-30 22:45:45,188 [INFO]  * Restarting with stat
+2026-03-30 22:45:45,540 [INFO] Starting Phishing Detector...
+2026-03-30 22:45:47,052 [INFO] Model loaded: Random Forest
+2026-03-30 22:45:47,069 [WARNING]  * Debugger is active!
+2026-03-30 22:45:47,073 [INFO]  * Debugger PIN: 102-325-663
+2026-03-30 22:45:47,166 [INFO] 127.0.0.1 - - [30/Mar/2026 22:45:47] "GET / HTTP/1.1" 200 -
+2026-03-30 22:45:47,252 [INFO] 127.0.0.1 - - [30/Mar/2026 22:45:47] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:45:47,672 [INFO] 127.0.0.1 - - [30/Mar/2026 22:45:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-30 22:45:57,569 [INFO] 127.0.0.1 - - [30/Mar/2026 22:45:57] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:07,269 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:07] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:11,794 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:11] "POST /api/scan HTTP/1.1" 200 -
+2026-03-30 22:46:11,832 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:11] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:17,576 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:17] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:27,259 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:27] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:27,891 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:27] "POST /api/scan HTTP/1.1" 200 -
+2026-03-30 22:46:28,130 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:28] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:37,266 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:37] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:47,583 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:47] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:46:57,257 [INFO] 127.0.0.1 - - [30/Mar/2026 22:46:57] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:47:04,452 [INFO] 127.0.0.1 - - [30/Mar/2026 22:47:04] "POST /api/scan HTTP/1.1" 200 -
+2026-03-30 22:47:04,694 [INFO] 127.0.0.1 - - [30/Mar/2026 22:47:04] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:47:07,266 [INFO] 127.0.0.1 - - [30/Mar/2026 22:47:07] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:47:17,578 [INFO] 127.0.0.1 - - [30/Mar/2026 22:47:17] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:47:54,515 [INFO] Starting Phishing Detector...
+2026-03-30 22:47:56,772 [INFO] Model loaded: Random Forest
+2026-03-30 22:47:56,814 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-03-30 22:47:56,814 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-30 22:47:56,817 [INFO]  * Restarting with stat
+2026-03-30 22:47:57,114 [INFO] Starting Phishing Detector...
+2026-03-30 22:47:58,431 [INFO] Model loaded: Random Forest
+2026-03-30 22:47:58,446 [WARNING]  * Debugger is active!
+2026-03-30 22:47:58,449 [INFO]  * Debugger PIN: 102-325-663
+2026-03-30 22:48:57,124 [INFO] 127.0.0.1 - - [30/Mar/2026 22:48:57] "GET / HTTP/1.1" 200 -
+2026-03-30 22:48:57,402 [INFO] 127.0.0.1 - - [30/Mar/2026 22:48:57] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:48:57,472 [INFO] 127.0.0.1 - - [30/Mar/2026 22:48:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-30 22:49:07,731 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:07] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:17,403 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:17] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:27,733 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:27] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:37,410 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:37] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:41,539 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:41] "POST /api/scan HTTP/1.1" 200 -
+2026-03-30 22:49:41,774 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:41] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:47,418 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:47] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:49:57,715 [INFO] 127.0.0.1 - - [30/Mar/2026 22:49:57] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:50:00,546 [INFO] 127.0.0.1 - - [30/Mar/2026 22:50:00] "POST /api/scan HTTP/1.1" 200 -
+2026-03-30 22:50:00,873 [INFO] 127.0.0.1 - - [30/Mar/2026 22:50:00] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:50:07,416 [INFO] 127.0.0.1 - - [30/Mar/2026 22:50:07] "GET /api/analytics HTTP/1.1" 200 -
+2026-03-30 22:50:17,724 [INFO] 127.0.0.1 - - [30/Mar/2026 22:50:17] "GET /api/analytics HTTP/1.1" 200 -
